@@ -16,6 +16,16 @@ i {
   background: linear-gradient(transparent, #fff);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(calc(100vh + 200px));
+  }
 }
 
 i:nth-child(3n + 1) {
