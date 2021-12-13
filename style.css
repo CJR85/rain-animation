@@ -17,3 +17,15 @@ i {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+i:nth-child(3n + 1) {
+  background: linear-gradient(transparent, #0ff);
+}
+
+i:nth-child(3n + 2) {
+  background: linear-gradient(transparent, #0f0);
+}
+
+i:nth-child(3n + 3) {
+  background: linear-gradient(transparent, #f00);
+}
